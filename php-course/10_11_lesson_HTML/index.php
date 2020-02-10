@@ -13,6 +13,3 @@ $footer = getFooter($sourceData);
 echo $header;
 echo $mainContent;
 echo $footer;
-
-
-
