@@ -14,3 +14,9 @@ function quadratic($a, $b, $c) {
         return $x;
     }
 }
+
+function debug($array) {
+    echo '<pre>';
+    print_r($array);
+    echo '</pre>';
+}
