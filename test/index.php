@@ -1,17 +1,16 @@
 <?php
-/*
-$name1 = 'Виталик';
-$name2 = 'Андрей';
+$a = 5;
+$b = $a;
 
-function test() {
-    $name3 = 'Вальдемар';
-    echo 'Привет ' . $name3;
-    echo '<br>';
-    global $name1;
-    echo 'Привет ' . $name1;
-    echo '<br>';
-    echo 'Привет ' . $GLOBALS['name2'];
-}
+$str = '$c = $a + $b;';
+eval($str);
+//die("$c");
 
-test();
-echo '<br>';*/
+$a = 10;
+$b = 20;
+
+//echo $a, $b;
+
+echo '<pre>';
+print_r($_SERVER);
+echo '</pre>';
