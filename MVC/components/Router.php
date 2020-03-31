@@ -23,20 +23,18 @@ class Router
 
     public function run()
     {
-        //get uri request
+        /**Получить строку запроса*/
         $uri = $this->getURI();
-        //check this uri in routes.php
+        /**Проверить наличие такого запроса в routes.php*/
         foreach ($this->routes as $uriPattern => $path) {
-            //compare $uriPattern with $uri
+            /**Сравниваем $uriPattern и $uri*/
             if (preg_match("~$uriPattern~", $uri)) {
-
-
-                //get internal path from external compare
+                /**пределить какой контроллер и action обрабатывают запрос*/
+                //Получаем внутренний путь из внешнего согласно правилу
                 $internalRoute = preg_replace("~$uriPattern~", $path, $uri);
 
-
-                //we define what controller and action handle the query
 //                $segments = explode('/', $path);
+                //Определить контроллер, action и параметры
                 $segments = explode('/', $internalRoute);
 
                 $controllerName = array_shift($segments) . 'Controller';
@@ -44,20 +42,17 @@ class Router
 
                 $actionName = 'action' . ucfirst(array_shift($segments));
 
-
                 $parameters = $segments;
-
-                //include file of controller`s class
+                //Подключить файл класса-контроллера
                 $controllerFile = ROOT . '/controllers/' . $controllerName . '.php';
 
                 if (file_exists($controllerFile)) {
                     include_once($controllerFile);
                 }
 
-
-                //create object of controller`s class and call method = action
+                //Создать объект, вызвать метод (т.е. action)
                 $controllerObject = new $controllerName;
-//                $result = $controllerObject->$actionName($parameters); //$actionName() calls like method with string of $actionName
+//                $result = $controllerObject->$actionName($parameters); //передаём параметры в action
 
                 //such approach gives us use of variables in parameters of actionView function in NewsController
                 $result = call_user_func_array(array($controllerObject, $actionName), $parameters);
