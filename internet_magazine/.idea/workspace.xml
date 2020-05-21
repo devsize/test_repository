@@ -2,130 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a2a4bad8-eb3f-4c61-8594-cdc43035704d" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/../MVC/config/db_params.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/template/css/style.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/views/news/archive.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/views/news/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MVC/views/news/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.htaccess" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/Internet magazine.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Db.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/components/Router.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/db_params.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/config/routes.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/BlogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/CatalogController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/ProductController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/controllers/SiteController.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Blog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/models/Product.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/css/animate.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/css/bootstrap.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/css/font-awesome.min.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/css/main.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/css/prettyPhoto.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/css/price-range.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/css/responsive.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/fonts/FontAwesome.otf" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/fonts/fontawesome-webfont.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/fonts/fontawesome-webfont.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.svg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/fonts/glyphicons-halflings-regular.woff" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/404/404.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/blog/blog-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/blog/blog-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/blog/blog-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/blog/man-four.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/blog/man-one.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/blog/man-three.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/blog/man-two.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/blog/socials.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/cart/one.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/cart/three.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/cart/two.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/bg_border.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/gallery1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/gallery2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/gallery3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/gallery4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/girl1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/girl2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/girl3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/iframe1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/iframe2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/iframe3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/iframe4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/logo.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/map.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/new.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/partner1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/partner2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/partner3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/partner4.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/pricing.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/product1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/product2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/product3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/product4.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/product5.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/product6.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/recommend1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/recommend2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/recommend3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/sale.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/searchicon.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/home/shipping.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/product-details/1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/product-details/new.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/product-details/rating.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/product-details/share.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/product-details/similar1.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/product-details/similar2.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/product-details/similar3.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/shop/advertisement.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/shop/product10.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/shop/product11.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/shop/product12.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/shop/product7.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/shop/product8.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/images/shop/product9.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/js/bootstrap.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/js/contact.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/js/gmaps.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/js/html5shiv.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/js/jquery.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/js/jquery.prettyPhoto.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/js/jquery.scrollUp.min.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/js/main.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/template/js/price-range.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/blog/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/blog/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/catalog/catalog.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/catalog/category.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/catalog/index.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layouts/footer.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/layouts/header.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/product/view.php" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/views/site/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../.idea/php.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../.idea/php.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/.htaccess" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/.htaccess" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/components/Db.php" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/components/Db.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/components/Router.php" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/components/Router.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/config/routes.php" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/config/routes.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/controllers/NewsController.php" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/controllers/NewsController.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/index.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/models/News.php" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/models/News.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/views/images/1.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/template/images/1.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/views/images/2.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/template/images/2.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/views/images/3.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/template/images/3.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/views/images/4.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/template/images/4.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../MVC/views/images/5.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/../MVC/template/images/5.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -165,7 +42,8 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1585665255310</updated>
-      <workItem from="1585665256500" duration="6863000" />
+      <workItem from="1585665256500" duration="8428000" />
+      <workItem from="1587631970926" duration="505000" />
     </task>
     <servers />
   </component>

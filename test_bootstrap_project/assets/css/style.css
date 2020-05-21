@@ -1,0 +1,42 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+
+a.nav-link {
+  color: rgba(255, 255, 255, 0.5);
+}
+
+.nav-pills .nav-link.active, .nav-pills .show > .nav-link {
+  background-color: rgba(255, 255, 255, 0.5);
+}
+
+.btn-primary {
+  background-color: #686060c2;
+  border-color: #5a4f4f;
+}
+
+.btn-primary:hover {
+  background-color: #5a4f4f;
+  border-color: #5a4f4f;
+}
+
+.form {
+  margin: 5%;
+}
+
+.form-check {
+  padding-left: 0;
+}
+
+.form-control-file {
+  margin-bottom: 4%;
+}
+
+.slide {
+  width: 100%;
+}
+.carousel-inner{
+  width:100%;
+  max-height: 400px !important;
+}

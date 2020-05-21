@@ -1,0 +1,49 @@
+<div class="row">
+
+  <div class="col-sm-6">
+
+    <form id="get-form" class="form" method="get" action="#" style="padding: 5%;">
+      <div class="form-group">
+        <label for="getInputEmail">Email address</label>
+        <input type="email" name="email" class="form-control" id="getInputEmail" aria-describedby="emailHelp"
+               placeholder="Enter email" required>
+      </div>
+      <div class="form-group">
+        <label for="getInputPassword1">Password</label>
+        <input type="password" name="password1" class="form-control" id="getInputPassword1" placeholder="Password1"
+               required>
+        <label for="getInputPassword2">Confirm password</label>
+        <input type="password" name="password2" class="form-control" id="getInputPassword2" placeholder="Password2"
+               required>
+      </div>
+        <button type="submit" class="btn btn-primary">Submit</button>
+    </form>
+
+  </div>
+
+
+  <div class="col-sm-6">
+
+    <form id="post-form" class="form" method="post" action="#" enctype="multipart/form-data" style="padding: 5%;">
+      <div class="form-group">
+        <label for="postInputEmail">Email address</label>
+        <input type="email" name="email" class="form-control" id="postInputEmail" aria-describedby="emailHelp"
+               placeholder="Enter email" required>
+      </div>
+      <div class="form-group">
+        <label for="postInputPassword1">Password</label>
+        <input type="password" name="password1" class="form-control" id="postInputPassword1" placeholder="Password1"
+               required>
+        <label for="postInputPassword2">Confirm password</label>
+        <input type="password" name="password2" class="form-control" id="postInputPassword2" placeholder="Password2"
+               required>
+      </div>
+      <div class="form-group form-check">
+        <label for="formControlFile1">File input</label>
+        <input type="file" class="form-control-file" id="formControlFile1" name="file">
+        <button type="submit" class="btn btn-primary">Submit</button>
+      </div>
+    </form>
+
+  </div>
+</div>
