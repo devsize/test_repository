@@ -1,6 +1,6 @@
 <?php
 
-class Car
+/*class Car
 {
     protected $doors;
 
@@ -30,7 +30,7 @@ class Car
     {
         return $this->doors;
     }
-}
+}*/
 
 //class Coupe extends Car
 //{
